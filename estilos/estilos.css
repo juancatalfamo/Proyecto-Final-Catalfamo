@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  background-color: rgb(255, 245, 238);
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo {
+  height: 80px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+header {
+  background-color: rgb(119, 136, 153);
+}
+
+ul li {
+  list-style-type: none;
+}
+
+nav ul {
+  display: grid;
+  justify-content: left;
+  font-size: small;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-size: larger;
+}
+
+h1 {
+  color: black;
+  margin: 1em 0 1em 0em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(119, 136, 153);
+  margin: 0;
+  margin-top: 2em;
+  padding: 0;
+}
+
+.derechos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.wsp img {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+
+.fb img {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+
+.ig img {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+
+.tw img {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+
+.display-4 {
+  display: grid;
+  justify-content: left;
+  font-weight: normal;
+  margin-left: 1em;
+}
+
+.palabras {
+  display: grid;
+  justify-content: center;
+  font-style: italic;
+  font-size: xx-small;
+}
+
+.parrafo__titulo1 {
+  padding: 0.5em 0.5em 0.2em;
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.parrafo__titulo2 {
+  padding: 0.5em 0.5em 0.2em;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.parrafo__titulo1--parrafo1 {
+  font-size: large;
+  font-weight: normal;
+}
+
+.parrafo__titulo2--parrafo2 {
+  font-size: large;
+  font-weight: normal;
+}
+
+/* mobile first 0 a 500px */
+/* display inline-block NO ES BUENA PRACTICA */
+/* barra de navegacion creada con flexbox */
+/* SECCION PRODUCTO */
+.producto {
+  margin: 1em;
+}
+
+.texto__titulo1 {
+  font-weight: bolder;
+  font-size: 1.6em;
+  margin-left: 0.5em;
+}
+
+.texto__titulo2 {
+  font-weight: bolder;
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
+
+.texto__titulo1--parrafo1 {
+  font-size: medium;
+}
+
+.texto__titulo2--parrafo2 {
+  font-size: medium;
+}
+
+.texto1 {
+  margin: 1.5em 1em 1.5em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagensoftware1 {
+  height: 10em;
+  width: 20em;
+  margin-top: 1.2em;
+}
+
+.texto2 {
+  margin: 1.5em 1em 1.5em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagensoftware2 {
+  height: 10em;
+  width: 20em;
+  margin-top: 1.2em;
+}
+
+/* SECCION COMPRAR */
+.comprar {
+  min-height: 100vh;
+}
+
+.subtitulo-comprar {
+  margin-left: 2em;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.packs-comprar {
+  margin: 1em 0.8em 1em 0.8em;
+  display: grid;
+  justify-content: center;
+}
+
+.pack1 {
+  margin: 0.8em 0 1em 0;
+}
+
+.pack2 {
+  margin: 0.8em 0 1em 0;
+}
+
+.pack3 {
+  margin: 0.8em 0 1em 0;
+}
+
+.pack1 h3 {
+  font-size: 1.5em;
+  font-style: oblique;
+}
+
+.pack2 h3 {
+  font-size: 1.5em;
+  font-style: oblique;
+}
+
+.pack3 h3 {
+  font-size: 1.5em;
+  font-style: oblique;
+}
+
+/* SECCION NOSOTROS */
+.nosotros {
+  margin: 1em;
+}
+
+.quienessomos h2 {
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
+}
+
+.quienessomos p {
+  font-size: medium;
+}
+
+.mision h2 {
+  font-weight: bold;
+  margin: 0.5em 0 0.7em 0;
+}
+
+.mision p {
+  font-size: medium;
+}
+
+.vision h2 {
+  font-weight: bold;
+  margin: 0.5em 0 0.7em 0;
+}
+
+.vision p {
+  font-size: medium;
+}
+
+.empresas__titulo {
+  text-align: center;
+  font-size: large;
+  margin: 5em;
+}
+
+.logos__empresas img {
+  height: 10em;
+  width: 10em;
+  margin: 0 8em 10em 8em;
+}
+
+.logos__empresas {
+  height: 20%;
+  display: grid;
+  justify-content: center;
+}
+
+/* SECCION CONTACTO */
+.subtitulo__contacto {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.contacto {
+  min-height: 100vh;
+}
+
+/* Declaracion de nombre de las areas para la grilla */
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+.contenido {
+  grid-area: contenido;
+}
+
+.galeria-grid {
+  grid-area: galeria;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.envoltura {
+  display: grid;
+  grid-template-areas: "header" "nav" "contenido" "galeria" "footer";
+}
+
+@media (min-width: 600px) {
+  .envoltura {
+    margin: 0;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+    font-size: small;
+  }
+  .imagensoftware1 {
+    height: 250px;
+    width: 500px;
+    margin-top: 1.2em;
+  }
+  .imagensoftware2 {
+    height: 250px;
+    width: 500px;
+    margin-top: 1.2em;
+  }
+  .subtitulo-comprar {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: medium;
+  }
+  .texto__titulo1 {
+    font-weight: bold;
+    font-size: 2.2em;
+    margin-left: 0.7em;
+  }
+  .texto1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .texto__titulo1--parrafo1 {
+    font-size: larger;
+  }
+  .texto__titulo2 {
+    font-weight: bold;
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+    margin-left: 0.7em;
+  }
+  .texto2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .texto__titulo2--parrafo2 {
+    font-size: larger;
+    margin-left: 1em;
+  }
+  .redes {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+  }
+  .logos__empresas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: ". ." "palaversich palaversich";
+    justify-items: center;
+    align-items: center;
+  }
+  .logo__palaversich {
+    grid-area: palaversich;
+  }
+  .pack3 {
+    grid-area: pack3;
+  }
+  .packs-comprar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: ". ." "pack3 pack3";
+    justify-content: center;
+    align-items: center;
+    margin: 2em 5em 0 5em;
+  }
+  .subtitulo-comprar {
+    text-align: left;
+  }
+  .subtitulo__contacto {
+    text-align: left;
+    margin: 0 0 2em 2em;
+  }
+}
+@media (min-width: 1124px) {
+  .imagensoftware1 {
+    height: 300px;
+    width: 600px;
+    margin: 0.5em;
+  }
+  .imagensoftware2 {
+    height: 300px;
+    width: 600px;
+    margin: 0.5em;
+  }
+}
+.logo-empresa {
+  height: 55px;
+  width: 55px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.derechos {
+  color: #d5e1df;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.formulario {
+  margin: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario__nya {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 1em;
+}
+
+.formulario__mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 1em;
+}
+
+.formulario__telefono {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 1em;
+}
+
+.formulario__consulta {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 1em;
+}
+
+.formulario__enviar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0.5em;
+}
+
+.formulario__linea {
+  padding: 5px;
+} /*# sourceMappingURL=estilos.css.map *//*# sourceMappingURL=estilos.css.map */

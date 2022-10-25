@@ -422,10 +422,20 @@ footer {
     margin: 0.5em;
   }
 
+  .imagensoftware1:hover {
+    transform: scale(1.5) translate(-100px);
+    transition-duration: 1.5s;
+  }
+
   .imagensoftware2 {
     height: 300px;
     width: 600px;
     margin: 0.5em;
+  }
+
+  .imagensoftware2:hover {
+    transform: scale(1.5) translate(100px);
+    transition-duration: 1.5s;
   }
 }
 
@@ -436,10 +446,6 @@ footer {
   padding-top: 15px;
   padding-bottom: 10px;
 }
-
-
-
-
 
 .derechos {
   color: #d5e1df;
